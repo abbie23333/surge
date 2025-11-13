@@ -1,0 +1,31 @@
+#############################
+# Melon 播放核心域名（App & 网页）
+#############################
+DOMAIN-SUFFIX=melon.com
+DOMAIN-SUFFIX=mlcdn.co.kr
+DOMAIN-SUFFIX=cdnimg.melon.co.kr
+DOMAIN-SUFFIX=cdnimg2.melon.co.kr
+
+# 登录、会员验证接口
+DOMAIN-SUFFIX=member.melon.com
+DOMAIN-SUFFIX=api.melon.com
+
+# Naver 相关依赖接口（Melon 登录依附 Naver）
+DOMAIN-SUFFIX=naver.com
+DOMAIN-SUFFIX=apis.naver.com
+DOMAIN-SUFFIX=musicmeta.phinf.naver.net
+
+# 防止本地直连导致播放403
+DOMAIN-KEYWORD=melon
+PROCESS-NAME=Melon
+
+#############################
+# GitHub 上 Melon 相关资源下载
+#############################
+DOMAIN-SUFFIX=github.com
+DOMAIN-SUFFIX=raw.githubusercontent.com
+DOMAIN-SUFFIX=codeload.github.com
+DOMAIN-SUFFIX=media.githubusercontent.com
+
+# 针对仓库或文件名中包含 melon 的路径
+DOMAIN-KEYWORD=melon
